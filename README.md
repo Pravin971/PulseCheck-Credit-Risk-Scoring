@@ -48,14 +48,20 @@ The app will open at `http://localhost:8501`
 
 ```
 PulseCheck-Credit-Risk-Scoring/
-├── app.py                  # Main Streamlit application
-├── xgboost_model.pkl       # Trained XGBoost model
-├── scaler.pkl              # Feature scaler
-├── data/                   # DuckDB database storage
-│   └── applications.duckdb # Application database
-├── Project_Models.ipynb    # Model training notebook
-├── PulseCheck.ipynb        # Data exploration notebook
-└── README.md               # This file
+├── app.py                                 # Main Streamlit application
+├── data/                                  # DuckDB database storage
+│   └── applications.duckdb                # Application database
+│   └── credit_risk_dataset.csv            # Raw CSV Data
+├── models/                                # Models
+│   └── xgboost_model.pkl                  # XGBoost Trained Model
+|   └── scaler.pkl                         # Feature scaler
+├── credit-risk-prediction-models.ipynb    # Model training notebook
+├── Credit_Risk_Project_Presentation.pptx  # Presentation
+├── MSDS422_PulseCheck_Report.pdf          # Report for the project
+├── PulseCheckEDA.ipynb                    # Data exploration notebook
+├── requirements.txt                       # Requirements
+└── README.md                              # This file
+└── License                                # MIT License
 ```
 
 ## 🎓 Academic Context
